@@ -1,0 +1,27 @@
+name: Suggestion
+description: An idea for a new feature or change
+labels: [suggestion]
+body:
+  - type: dropdown
+    id: mod
+    attributes:
+      label: Which mod is this about?
+      options:
+        - Artificier's Almanac
+        - Bookbinder's Almanac
+        - Colossi
+        - Elemental Motes
+        - Quintessence
+        - Spell's Atlas
+        - Tempest Almanac
+        - Other
+    validations: { required: true }
+  - type: textarea
+    id: idea
+    attributes:
+      label: Describe your idea
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this be useful?
