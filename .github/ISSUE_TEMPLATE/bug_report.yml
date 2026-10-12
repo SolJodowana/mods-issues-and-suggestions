@@ -1,0 +1,11 @@
+  - type: dropdown
+    id: mod
+    attributes:
+      label: Którego moda dotyczy zgłoszenie?
+      options:
+        - Artificier's Almanac
+        - Spell's Atlas
+        - Tempest Almanac
+        - Quintessence
+        - Inny
+    validations: { required: true }
